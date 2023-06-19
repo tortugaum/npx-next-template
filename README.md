@@ -56,3 +56,9 @@ Exemplo de configuração eslint:
     "prettier"
   ],
 ```
+
+
+### Arquivo Automatizado
+
+**create-next-app-default.sh** é um arquivo que deve ser executado pelo bash `./create-next-app-default.sh nomeProjeto`
+Lembrando que nesse método é preciso acessar o arquivo tsconfig.json após a criação do projeto e colocar a flag `"baseUrl": "src/"`
